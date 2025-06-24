@@ -1,0 +1,56 @@
+.Login{
+    opacity: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    flex-direction: column;
+    background-color: #faebd7;
+    width: 500px;
+    border-radius: 30px;
+    padding: 30px;
+    border-style: double;
+    border-width: 10px;
+}
+
+.loginBody{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('images/login page.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+}
+
+input[type=text] {
+    width: 80%;
+    padding: 6px 14px;
+    margin-top: 8px;
+    border-radius: 10px;
+    height: 20px;
+}
+
+input[type=submit] {
+    width: 50%;
+    background-color: yellow;
+    padding: 6px 14px;
+    margin-top: 5px;
+    border-radius: 10px;
+    height: 50px;
+}
+
+input[type=submit]:hover{
+    background-color: blue;
+    color: aliceblue;
+}
+
+form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
